@@ -5,16 +5,22 @@ import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProp
 import StatefulGreeting from './components/StatefulGreeting';
 import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
+import EventsClass from './components/EventsClass';
+import EventsFunctional from './components/EventsFunctional';
+import EventBinding from './components/EventBinding';
 
 
 function App() {
   return (
     <div className="App">
+      <EventBinding />
+      {/*<EventsClass />
+      <EventsFunctional />*/}
       {/* <FunctionalGreeting /> */}
       {/* <FunctionalGreetingWithProps greeting= "nice to meet you!" name="Michael" age="33" /> */}
       {/* <StatefulGreeting greeting= "I'm a stateful class component!" name ="Theo" /> */}
       {/* <StatefulGreetingWithCallback greeting= "I'm a stateful class component!" name ="Theo" /> */}
-      <StatefulGreetingWithPrevState greeting= "I'm a stateful class component with an interactive button and greeting" name="Sam"/>
+      {/*<StatefulGreetingWithPrevState greeting= "I'm a stateful class component with an interactive button and greeting" name="Sam"/>*/}
     </div>
   );
 }
