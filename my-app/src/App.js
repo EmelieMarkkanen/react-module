@@ -20,12 +20,14 @@ import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
 import Searchbar from './components/Searchbar';
 import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
 
 function App() {
   return (
     <div className="App">
-      <ControlledFormHooks />
-      {/*<Searchbar />
+      <UseStateWithArrays />
+      {/*<ControlledFormHooks />
+      <Searchbar />
       <UncontrolledForm />
       <ControlledForm />
       <LifeCyclesCWU />
@@ -40,9 +42,9 @@ function App() {
       <EventsClass />
       <EventsFunctional />
       <FunctionalGreeting /> 
-      {<FunctionalGreetingWithProps greeting= "nice to meet you!" name="Michael" age="33" /> 
+      <FunctionalGreetingWithProps greeting= "nice to meet you!" name="Michael" age="33" /> 
       <StatefulGreeting greeting= "I'm a stateful class component!" name ="Theo" /> 
-      { <StatefulGreetingWithCallback greeting= "I'm a stateful class component!" name ="Theo" /> 
+      <StatefulGreetingWithCallback greeting= "I'm a stateful class component!" name ="Theo" /> 
       <StatefulGreetingWithPrevState greeting= "I'm a stateful class component with an interactive button and greeting" name="Sam"/>*/}
     </div>
   );
