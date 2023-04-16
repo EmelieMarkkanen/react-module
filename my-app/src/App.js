@@ -26,12 +26,14 @@ import UseEffectsCounter from './components/UseEffectsCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 import HTTPRequest from './components/HTTPRequest';
 import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
 
 function App() {
   return (
     <div className="App">
-      <HTTPPost />
-      {/*<HTTPRequest />
+      <HTTPHooks />
+      {/*<HTTPPost />
+      <HTTPRequest />
       <UseEffectCounterContainer />
       <UseEffectsCounter />
       <UseStateWithObjects />
