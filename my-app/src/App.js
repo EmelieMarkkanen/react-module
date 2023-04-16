@@ -25,12 +25,14 @@ import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectsCounter from './components/UseEffectsCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 import HTTPRequest from './components/HTTPRequest';
+import HTTPPost from './components/HTTPPost';
 
 function App() {
   return (
     <div className="App">
-      <HTTPRequest />
-      {/*<UseEffectCounterContainer />
+      <HTTPPost />
+      {/*<HTTPRequest />
+      <UseEffectCounterContainer />
       <UseEffectsCounter />
       <UseStateWithObjects />
       <UseStateWithArrays />
