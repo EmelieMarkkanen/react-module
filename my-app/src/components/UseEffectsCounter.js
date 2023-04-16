@@ -11,8 +11,13 @@ function UseEffectsCounter() {
     useEffect(() => {
       console.log("Creating timer..")
       const interval = setInterval(() => {
+        console.log("Interval executed");
         setTime(time => time + 1)
       }, 1000);
+      return () => {
+        console.log("cleaning up")
+        clearInterval(interval)
+      }
     }, []);
 
   return (

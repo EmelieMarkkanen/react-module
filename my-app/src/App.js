@@ -23,12 +23,16 @@ import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWithArrays from './components/UseStateWithArrays';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectsCounter from './components/UseEffectsCounter';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import HTTPRequest from './components/HTTPRequest';
 
 function App() {
   return (
     <div className="App">
+      <HTTPRequest />
+      {/*<UseEffectCounterContainer />
       <UseEffectsCounter />
-      {/*<UseStateWithObjects />
+      <UseStateWithObjects />
       <UseStateWithArrays />
       <ControlledFormHooks />
       <Searchbar />
